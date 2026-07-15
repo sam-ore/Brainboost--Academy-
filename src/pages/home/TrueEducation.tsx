@@ -83,10 +83,12 @@ const TrueEducation = () => {
                     </p>
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
                         <button className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full transition shadow-lg shadow-amber-500/30 hover:-translate-y-1">
-                            Discover Our Approach
+                         
+                        <a href="/AboutUs">Discover Our Approach</a>
                         </button>
                         <button className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-semibold py-3 px-8 rounded-full transition border border-white/30">
-                            Learn More
+                        <a href="/service">Learn More</a>
+                            
                         </button>
                     </div>
                 </div>
@@ -160,10 +162,14 @@ const TrueEducation = () => {
                     </p>
                     <div className="flex flex-wrap justify-center gap-4">
                         <button className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-10 rounded-full transition shadow-lg shadow-amber-200 hover:shadow-amber-300/50 hover:-translate-y-1">
-                            Enroll Now
+
+                        <a href="/enroll">
+                            <span>Enroll Now</span>
+                            </a>
                         </button>
                         <button className="border-2 border-amber-500 text-amber-600 hover:bg-amber-50 font-semibold py-3 px-10 rounded-full transition">
-                            Contact Us
+                            <a href="/contact"> Contact Us</a>
+                           
                         </button>
                     </div>
                 </div>

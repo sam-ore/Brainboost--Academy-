@@ -46,6 +46,15 @@ const Testimonial = () => {
       "Every lesson was engaging and practical. The tutors focused on understanding rather than memorization, which made learning enjoyable. I confidently passed both WAEC and JAMB with outstanding scores.",
     image: <IoPersonCircleSharp className="w-20 h-20 text-gray-400" />,
   },
+
+  {
+    id:6,
+    name:"Omotoso Daniel",
+    role: "Home Tutor Student",
+    quote:
+    "Brainboost helps me in solving Mathematics and in reading comprehension, Its teaches about God and it helps me set goals about what i want to become in future.",
+    image: <IoPersonCircleSharp className="w-20 h-20 text-gray-400" />,
+  },
 ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -70,7 +79,10 @@ const Testimonial = () => {
     const handleMouseLeave = () => setIsPlaying(true);
 
     return (
-        <div className="min-h-screen bg-white font-sans py-16">
+        <div
+  id="testimonials"
+  className="min-h-screen bg-white font-sans py-16 scroll-mt-24"
+>
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
@@ -158,7 +170,7 @@ const Testimonial = () => {
                         Join hundreds of satisfied students and schools
                     </p>
                     <button className="mt-3 group inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold py-2.5 px-7 rounded-full text-sm transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
-                        <span>Share Your Story</span>
+                        <span><a href="/contact">Share Your Story</a></span>
                         <svg
                             className="w-4 h-4 transition-transform group-hover:translate-x-1"
                             fill="none"

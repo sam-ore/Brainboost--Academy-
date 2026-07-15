@@ -2,6 +2,8 @@
 
 
 const Offer = () => {
+
+    
     const offerings = [
         {
             id: 1,
@@ -71,8 +73,12 @@ const Offer = () => {
         },
     ];
 
+    
+
     return (
-        <div className="min-h-screen bg-white font-sans py-16">
+        <div 
+        id="offer"
+        className="min-h-screen bg-white font-sans py-16">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Page Header */}
                 <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
@@ -115,7 +121,12 @@ const Offer = () => {
 
                             {/* Optional subtle link / arrow */}
                             <div className="mt-4 flex items-center text-amber-500 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                                <span>Learn more</span>
+                                <a href="/service">
+                                    <span>Learn More</span>
+                                </a>
+                                
+                                
+                                
                                 <svg
                                     className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1"
                                     fill="none"
@@ -140,7 +151,7 @@ const Offer = () => {
                             Join Brainboost Academy today and let our expert tutors prepare you for success in WAEC, NECO, and JAMB with proven teaching methods and personalized support.
                         </p>
                         <button className="group inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full text-sm sm:text-base transition-all shadow-lg shadow-amber-200 hover:shadow-amber-300/50 hover:-translate-y-0.5">
-                            <span>Contact Us</span>
+                            <span><a href="/contact">Contact Us</a></span>
                             <svg
                                 className="w-4 h-4 transition-transform group-hover:translate-x-1"
                                 fill="none"

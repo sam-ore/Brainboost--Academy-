@@ -1,4 +1,9 @@
-
+import img1 from "../../assets/images/abinash-jothimani-P4KX6qSaBcY-unsplash.jpg"
+import img2 from "../../assets/images/siora-photography-ZslFOaqzERU-unsplash.jpg"
+import img3 from "../../assets/images/animate.png"
+import img4 from "../../assets/images/a girl.png"
+import img5 from "../../assets/images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg"
+import img6 from "../../assets/images/researchbg.jpg"
 
 const WhatSetsApart = () => {
     const features = [
@@ -7,42 +12,45 @@ const WhatSetsApart = () => {
             title: "Experienced & Passionate Tutors",
             description:
                 "At Brainboost Academy, our tutors are highly experienced, knowledgeable, and passionate about helping students succeed. We simplify difficult concepts, provide personalized attention, and ensure every student gains the confidence needed to excel in WAEC, NECO, and JAMB examinations.",
-            image: "https://picsum.photos/seed/edu1/600/400",
+            image: img1,
+               
         },
+
+        
         {
             id: 2,
             title: "Proven Exam Preparation Strategies",
             description:
                 "We don't just teach—we prepare students to succeed. Our lessons are structured around the latest examination syllabuses, past questions, mock examinations, and effective exam techniques that help students maximize their performance on exam day.",
-            image: "https://picsum.photos/seed/edu2/600/400",
+            image: img2,
         },
         {
             id: 3,
             title: "Personalized Learning Experience",
             description:
                 "Every student has unique strengths and challenges. That's why we tailor our teaching approach to meet individual learning needs, ensuring that each learner receives the support, guidance, and encouragement necessary to reach their full academic potential.",
-            image: "https://picsum.photos/seed/edu3/600/400",
+            image: img3,
         },
         {
             id: 4,
             title: "Interactive & Engaging Classes",
             description:
                 "Learning is more effective when students actively participate. Our classes encourage discussions, problem-solving, practical exercises, and regular assessments, making learning enjoyable while improving understanding and long-term retention.",
-            image: "https://picsum.photos/seed/edu4/600/400",
+            image: img4,
         },
         {
             id: 5,
             title: "Continuous Progress Monitoring",
             description:
                 "We believe that consistent improvement leads to outstanding results. Through regular tests, assignments, mock examinations, and detailed performance reports, we track every student's progress and provide targeted support where improvement is needed.",
-            image: "https://picsum.photos/seed/edu5/600/400",
+            image: img5,
         },
         {
             id: 6,
             title: "Commitment to Student Success",
             description:
                 "Our students' success is our greatest achievement. Beyond preparing them for WAEC, NECO, and JAMB, we mentor, motivate, and inspire learners to develop confidence, discipline, and lifelong study habits that prepare them for university and future careers..",
-            image: "https://picsum.photos/seed/edu6/600/400",
+            image: img6,
         },
     ];
 
@@ -81,6 +89,13 @@ const WhatSetsApart = () => {
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                             />
 
+  <img
+                                src={img2}
+                                alt={item.title}
+                                className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                            />
+
+
                             {/* Dark Overlay (fades in on hover) */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
@@ -103,7 +118,7 @@ const WhatSetsApart = () => {
 
                                 {/* Small arrow indicator */}
                                 <div className="mt-3 flex items-center text-amber-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity delay-100">
-                                    <span>Explore</span>
+                                    <span><a href="/AboutUs">Explore</a></span>
                                     <svg
                                         className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1"
                                         fill="none"
@@ -130,7 +145,9 @@ const WhatSetsApart = () => {
                             your child.
                         </p>
                         <button className="group inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full text-sm sm:text-base transition-all shadow-lg shadow-amber-200 hover:shadow-amber-300/50 hover:-translate-y-0.5">
+                        <a href="/enroll">
                             <span>Enroll Now</span>
+                          </a>
                             <svg
                                 className="w-4 h-4 transition-transform group-hover:translate-x-1"
                                 fill="none"

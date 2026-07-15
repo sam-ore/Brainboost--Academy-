@@ -90,10 +90,12 @@ const HomeHero = () => {
                         {/* CTA Button */}
                         <div className="pt-2">
                             <button className="group relative inline-flex items-center gap-3 bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 px-8 sm:py-4 sm:px-10 rounded-full text-sm sm:text-base transition-all duration-300 shadow-lg shadow-amber-200 hover:shadow-amber-300/50 hover:-translate-y-0.5">
+                            <a href="/enroll">
                                 <span>GET STARTED</span>
+                                </a>
                                 <svg
                                     className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:translate-x-1"
-                                    fill="none"
+                                    fill="black"
                                     stroke="currentColor"
                                     strokeWidth="2.5"
                                     viewBox="0 0 24 24"
