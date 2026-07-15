@@ -1,6 +1,6 @@
 // Header.jsx
 import { useState, useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+// import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../../assets/images/2.png";
 // import logo2 from "../../assets/images/ChatGPT_Image_Jul_3__2026__12_40_45_PM-removebg-preview.png";
 

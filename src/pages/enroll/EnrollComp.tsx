@@ -1,5 +1,5 @@
 import Enroll from "./Enroll"
-import Login from "./Login"
+// import Login from "./Login"
 
 const EnrollComp = () => {
   return (

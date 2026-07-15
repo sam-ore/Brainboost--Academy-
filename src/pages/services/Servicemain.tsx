@@ -1,5 +1,5 @@
 // ServicesPage.jsx
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 
 const Servicemain = () => {
     const [activeIndex, setActiveIndex] = useState(0);
