@@ -216,22 +216,13 @@ const sectionRefs = useRef<(HTMLElement | null)[]>([]);
                             </h3>
                             <div className="space-y-4 text-gray-600 text-base leading-relaxed">
                                 <p>
-                                    Dr. Adewale Ogunleye grew up in a small town with limited
-                                    access to quality education. He earned a scholarship to
-                                    study abroad, where he discovered the power of innovative
-                                    teaching methods.
+                                    Omotoso Dotun has always believed that education is the key to unlocking opportunities and transforming lives. Inspired by a passion for helping students overcome academic challenges, he founded Brainboost Academy with a clear mission: to provide quality tutoring that empowers students to excel in WAEC, NECO, and JAMB examinations.
                                 </p>
                                 <p>
-                                    Upon returning to Nigeria, he faced countless challenges:
-                                    limited resources, skepticism from traditional educators,
-                                    and the overwhelming demand for exam-focused tutoring. But
-                                    he pushed forward, driven by a vision of a more holistic
-                                    education system.
+                                   Starting with a vision and a determination to make a difference, he recognized that many students struggled not because they lacked potential, but because they lacked the right guidance, effective study strategies, and experienced mentors. Through dedication, innovation, and a student-centered approach, he set out to bridge that gap by creating a learning environment where every student can thrive.
                                 </p>
                                 <p>
-                                    Today, he leads a team of 50+ educators and has directly
-                                    impacted over 5,000 students. His story is a testament to
-                                    the idea that one person’s passion can change a generation.
+                                 Today, Brainboost Academy continues to impact students by delivering personalized tutoring, comprehensive exam preparation, and continuous academic support. Under Omotoso Dotun's leadership, the academy remains committed to nurturing confident learners, achieving outstanding examination results, and helping students secure admission into their dream institutions.
                                 </p>
                                 <div className="flex items-center gap-4 mt-4 text-sm text-amber-600 font-medium">
                                     <span>🏆 Awarded “Education Innovator 2024”</span>
@@ -357,11 +348,7 @@ const sectionRefs = useRef<(HTMLElement | null)[]>([]);
                     </h2>
                     <div className="mt-6 space-y-4 text-white/90 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
                         <p>
-                            By 2030, we aim to reach <strong>50,000 students</strong> across
-                            Nigeria and West Africa. We’re expanding our SISU Schools®
-                            network to <strong>50 campuses</strong>, and we’re building a
-                            digital platform to make our curriculum accessible to every
-                            child, regardless of location.
+                          Our vision is to become one of Africa's most trusted academic support platforms, helping thousands of students excel in WAEC, NECO, and JAMB through quality teaching, innovative learning methods, and personalized mentorship. We believe every student deserves access to excellent education, and we are committed to making academic success achievable for all.
                         </p>
                         <p>
                             We envision a future where African students are not just

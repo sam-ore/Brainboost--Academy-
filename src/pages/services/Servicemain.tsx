@@ -1,6 +1,7 @@
 // ServicesPage.jsx
 import  { useEffect, useRef, useState } from "react";
 
+
 const Servicemain = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -46,20 +47,20 @@ const Servicemain = () => {
         },
         {
             id: 2,
-            title: "SISU Schools®",
-            subtitle: "Finnish-American Curriculum",
+            title: "Academic Excellence Program",
+            subtitle: "Preparing Students for Success",
             description:
-                "A revolutionary blend of Finnish creativity and American rigor, fostering critical thinking and innovation.",
+                "From concept-based teaching to intensive exam preparation, Brainboost Academy equips students with the knowledge, confidence, and skills they need to excel in WAEC, NECO, and JAMB while building a strong academic foundation for the future.",
             image:
                 "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             color: "from-blue-500 to-cyan-500",
         },
         {
             id: 3,
-            title: "School Consulting",
-            subtitle: "Operations & Accreditation",
+            title: "Home Tutoring",
+            subtitle: "Personalized Learning at Your Doorstep",
             description:
-                "Expert guidance on managing international schools, from daily operations to staff development and licensing.",
+                "Receive expert one-on-one tutoring in the comfort of your home. Our personalized lessons, regular progress tracking, and exam-focused approach help students build confidence and achieve excellent results in WAEC, NECO, and JAMB.",
             image:
                 "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             color: "from-purple-500 to-pink-500",
@@ -77,25 +78,25 @@ const Servicemain = () => {
         },
         {
             number: "02",
-            title: "SISU Schools®",
+            title: "Academic Mentorship",
             description:
-                "Finnish-American curriculum combining creativity, critical thinking, and holistic growth.",
+                "Guiding students with effective study skills, discipline, and academic excellence.",
             icon: "🌍",
             color: "blue",
         },
         {
             number: "03",
-            title: "School Consulting",
+            title: "Mock Examinations",
             description:
-                "Operational support, staff training, accreditation, and licensing for international schools.",
+                "Real exam simulations that build confidence, speed, and accuracy.",
             icon: "🏫",
             color: "purple",
         },
         {
             number: "04",
-            title: "Teacher Training",
+            title: "Home Tutoring",
             description:
-                "Professional development programs, classroom management, and modern pedagogy workshops.",
+                "Personalized one-on-one lessons delivered in the comfort of your home.",
             icon: "👨‍🏫",
             color: "green",
         },
@@ -109,9 +110,9 @@ const Servicemain = () => {
         },
         {
             number: "06",
-            title: "Licensing & Accreditation",
+            title: "Study Skills Coaching",
             description:
-                "Navigate the process of establishing new schools with branding and quality assurance.",
+                "Developing smart learning habits for lifelong academic success.",
             icon: "📜",
             color: "indigo",
         },
@@ -386,7 +387,7 @@ const Servicemain = () => {
                 className="relative py-16 px-4 sm:px-6 lg:px-8 opacity-0 translate-y-12 transition-all duration-700 ease-out delay-200 overflow-hidden"
                 style={{
                     backgroundImage:
-                        "url('https://images.unsplash.com/photo-1523050854058-8df90110c7f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')",
+                        "url('src/assets/images/WhatsApp Image 2024-03-30 at 10.21.27_eb2b7f2b.jpg')",
                     backgroundSize: "cover",
                     backgroundAttachment: "fixed",
                     backgroundPosition: "center",
@@ -396,27 +397,27 @@ const Servicemain = () => {
                 <div className="relative z-10 container mx-auto max-w-5xl">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
                         <div className="space-y-1">
-                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">1200+</div>
+                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">500+</div>
                             <p className="text-sm text-white/70 font-medium uppercase tracking-wider">
-                                Partner Schools
+                               Students Coached
                             </p>
                         </div>
                         <div className="space-y-1">
                             <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">95%</div>
                             <p className="text-sm text-white/70 font-medium uppercase tracking-wider">
-                                Exam Success Rate
+                               Student Satisfaction
                             </p>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">20+</div>
+                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">100+</div>
                             <p className="text-sm text-white/70 font-medium uppercase tracking-wider">
-                                Owned Schools
+                               Mock Tests Conducted
                             </p>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">10+</div>
+                            <div className="text-4xl sm:text-5xl font-extrabold text-amber-400">3</div>
                             <p className="text-sm text-white/70 font-medium uppercase tracking-wider">
-                                SISU Licensed
+                                Major Exams Covered
                             </p>
                         </div>
                     </div>

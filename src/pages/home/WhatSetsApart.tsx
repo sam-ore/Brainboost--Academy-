@@ -55,7 +55,9 @@ const WhatSetsApart = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50 font-sans py-16">
+        <div 
+        id="apart"
+        className="min-h-screen bg-gray-50 font-sans py-16">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Page Header */}
                 <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
@@ -89,7 +91,7 @@ const WhatSetsApart = () => {
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                             />
 
-  <img
+   <img
                                 src={img2}
                                 alt={item.title}
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
@@ -97,10 +99,10 @@ const WhatSetsApart = () => {
 
 
                             {/* Dark Overlay (fades in on hover) */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500"></div>
 
                             {/* Text Content - Slides UP from bottom on hover */}
-                            <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                          <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 transform translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 ease-out">
                                 {/* Optional small badge/icon */}
                                 <div className="flex items-center gap-2 mb-1">
                                     <span className="w-6 h-0.5 bg-amber-400"></span>
@@ -117,7 +119,7 @@ const WhatSetsApart = () => {
                                 </p>
 
                                 {/* Small arrow indicator */}
-                                <div className="mt-3 flex items-center text-amber-400 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity delay-100">
+                                <div className="mt-3 flex items-center text-amber-400 text-sm font-medium opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity delay-100">
                                     <span><a href="/AboutUs">Explore</a></span>
                                     <svg
                                         className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1"

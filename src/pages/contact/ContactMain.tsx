@@ -35,18 +35,18 @@ const ContactMain = () => {
       icon: "✉️",
       title: "Email",
       details: ["info@brainboost.edu", "admissions@brainboost.edu"],
-      link: "mailto:info@brainboost.edu",
+      link: "oreadeyemi06@gmail.com",
     },
     {
       icon: "📍",
       title: "Address",
-      details: ["123 Education Way,", "Lagos, Nigeria"],
+      details: ["Christ Avenue Off Adebayo Road,", "Ado-Ekiti, Nigeria"],
       link: "https://maps.google.com",
     },
     {
       icon: "🕐",
       title: "Office Hours",
-      details: ["Mon – Fri: 8:00 AM – 6:00 PM", "Sat: 9:00 AM – 2:00 PM"],
+      details: ["Mon – Fri: 8:00 AM – 3:00 PM", "Sat: 11:00 AM – 2:00 PM"],
       link: null,
     },
   ];
@@ -54,7 +54,7 @@ const ContactMain = () => {
   const socialLinks = [
     {
       name: "Facebook",
-      href: "https://facebook.com",
+      href: "https://web.facebook.com/dotun.omotoso.5",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
@@ -155,7 +155,7 @@ const ContactMain = () => {
               📧 Email Us
             </a>
             <a
-              href="tel:+2348000000000"
+              href="tel:+2348062765363"
               className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-semibold py-3 px-8 rounded-full transition border border-white/30 hover:-translate-y-1 duration-300"
             >
               📞 Call Now
@@ -289,7 +289,7 @@ const ContactMain = () => {
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <a
-                    href="https://wa.me/2348165831345"
+                    href="https://wa.me/2348062765363"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2.5 px-6 rounded-full text-sm transition shadow-md hover:shadow-lg hover:-translate-y-0.5"
@@ -297,7 +297,7 @@ const ContactMain = () => {
                     💬 WhatsApp
                   </a>
                   <a
-                    href="mailto:info@brainboost.edu"
+                    href="mailto:akindotun"
                     className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2.5 px-6 rounded-full text-sm transition shadow-md hover:shadow-lg hover:-translate-y-0.5"
                   >
                     ✉️ Send Email
@@ -334,7 +334,7 @@ const ContactMain = () => {
                 Enroll Now
               </a>
               <a
-                href="/offer"
+                href="/#offer"
                 className="border-2 border-amber-500 text-amber-600 hover:bg-amber-50 font-semibold py-3.5 px-10 rounded-full transition hover:-translate-y-1"
               >
                 Explore Programs

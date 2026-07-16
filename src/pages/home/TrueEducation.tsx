@@ -54,7 +54,9 @@ const TrueEducation = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-white font-sans overflow-hidden">
+        <div 
+        id="true-education"
+        className="min-h-screen bg-white font-sans overflow-hidden">
             {/* ===== HERO SECTION ===== */}
             <section
                 className="relative h-[70vh] min-h-[500px] flex items-center justify-center bg-cover bg-center"

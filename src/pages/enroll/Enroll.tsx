@@ -24,26 +24,24 @@ interface FormErrors {
     gradeLevel?: string;
 }
 
-type ProgramOption = "jamb" | "waec" | "neco" | "sisu" | "enrichment" | "consulting" | "teacher-training";
-type GradeOption = "ss1" | "ss2" | "ss3" | "university" | "professional";
+type ProgramOption = "jamb" | "waec" | "neco" |  "enrichment" | "consulting" | "home-tutoring";
+type GradeOption = "ss1" | "ss2" | "ss3" | "university" | "O'level graduate";
 
 // ===== CONSTANTS =====
 const PROGRAM_OPTIONS: { value: ProgramOption; label: string }[] = [
     { value: "jamb", label: "JAMB Preparation" },
     { value: "waec", label: "WAEC Coaching" },
     { value: "neco", label: "NECO Preparation" },
-    { value: "sisu", label: "SISU Schools® Curriculum" },
     { value: "enrichment", label: "Student Enrichment" },
     { value: "consulting", label: "School Consulting" },
-    { value: "teacher-training", label: "Teacher Training" },
+    { value: "home-tutoring", label: "Home Tutoring" },
 ];
 
 const GRADE_OPTIONS: { value: GradeOption; label: string }[] = [
     { value: "ss1", label: "SS1" },
     { value: "ss2", label: "SS2" },
     { value: "ss3", label: "SS3" },
-    { value: "university", label: "University / Graduate" },
-    { value: "professional", label: "Professional" },
+    { value: "O'level graduate", label: "O'level graduate" },
 ];
 
 // ===== INITIAL STATE =====
@@ -191,7 +189,7 @@ const EnrollSimple: React.FC = () => {
                                         ? "border-red-500 focus:ring-red-500"
                                         : "border-gray-300 focus:ring-amber-500 focus:border-amber-500"
                                 } focus:outline-none focus:ring-2 transition bg-gray-50`}
-                                placeholder="John"
+                                placeholder="Clement"
                             />
                             {errors.studentFirstName && (
                                 <p className="text-red-500 text-xs mt-1">{errors.studentFirstName}</p>
@@ -211,7 +209,7 @@ const EnrollSimple: React.FC = () => {
                                         ? "border-red-500 focus:ring-red-500"
                                         : "border-gray-300 focus:ring-amber-500 focus:border-amber-500"
                                 } focus:outline-none focus:ring-2 transition bg-gray-50`}
-                                placeholder="Doe"
+                                placeholder="Kelvin"
                             />
                             {errors.studentLastName && (
                                 <p className="text-red-500 text-xs mt-1">{errors.studentLastName}</p>
@@ -389,7 +387,7 @@ const EnrollSimple: React.FC = () => {
                                 Submitting...
                             </span>
                         ) : (
-                            "🚀 Enroll Now"
+                            " Enroll Now"
                         )}
                     </button>
 
