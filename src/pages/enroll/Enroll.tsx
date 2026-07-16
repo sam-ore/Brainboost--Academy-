@@ -1,3 +1,5 @@
+import emailjs from "@emailjs/browser";
+
 // EnrollSimple.tsx
 import { useState, type ChangeEvent, type FormEvent } from "react";
 // import type { FC } from "react";
@@ -112,23 +114,33 @@ const EnrollSimple: React.FC = () => {
 
         setIsSubmitting(true);
 
-        try {
-            // Simulate API call — replace with actual API
-            await new Promise((resolve) => setTimeout(resolve, 1500));
+       try {
+    await emailjs.send(
+        "service_i130bjx",
+        "template_izcihhr",
+        {
+            studentFirstName: formData.studentFirstName,
+            studentLastName: formData.studentLastName,
+            parentName: formData.parentName,
+            email: formData.email,
+            phone: formData.phone,
+            program: formData.program,
+            gradeLevel: formData.gradeLevel,
+            message: formData.message,
+        },
+        "c4v_zXHWTfnKMNeTy"
+    );
 
-            console.log("Enrollment submitted:", formData);
-            setSubmitted(true);
+    setSubmitted(true);
 
-            // Reset form after 5 seconds
-            setTimeout(() => {
-                setSubmitted(false);
-                setFormData(initialFormData);
-            }, 5000);
-        } catch (error) {
-            console.error("Submission error:", error);
-        } finally {
-            setIsSubmitting(false);
-        }
+    setTimeout(() => {
+        setSubmitted(false);
+        setFormData(initialFormData);
+    }, 5000);
+
+} catch (error) {
+    console.error("Submission error:", error);
+}
     };
 
     // ===== RENDER =====
