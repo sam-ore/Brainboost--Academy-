@@ -36,7 +36,7 @@ const HomeHero = () => {
                                 className="h-10 sm:h-12 w-auto object-contain"
                             />
                             <span className="text-xs sm:text-sm font-medium text-amber-600 tracking-widest uppercase border-l-2 border-amber-300 pl-3">
-                                Since 2024
+                                Since 2015
                             </span>
                         </div>
 

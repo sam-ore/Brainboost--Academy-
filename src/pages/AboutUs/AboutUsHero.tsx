@@ -156,31 +156,26 @@ const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
                     <div className="space-y-6 text-gray-700 text-base sm:text-lg leading-relaxed">
                         <p>
-                            In 2018, <strong>Dr. Adewale Ogunleye</strong> sat in a small
-                            classroom in Lagos, watching students struggle with exam
-                            preparation. Despite their intelligence, they lacked the
-                            structured support and modern techniques needed to excel.
+                           In 2015, <strong>Mr. Omotoso Oluwasolamidotun</strong>, an education enthusiast and passionate tutor, noticed a common challenge among students preparing for major examinations. Many students had the ability to succeed, but they struggled with proper guidance, effective study methods, and the personal support needed to reach their full potential.
                         </p>
                         <p>
-                            That moment sparked an idea. Adewale, who had spent years
-                            studying educational systems in Finland, the United States, and
-                            the UK, saw an opportunity to bring the best of these worlds to
-                            Nigeria. He began by tutoring a handful of students in his
-                            living room, using a blend of Finnish creativity and American
-                            rigor.
+                            This realization inspired a vision: to provide students with quality learning support that goes beyond the classroom.
+
+With a strong passion for education and student development, Mr. Omotoso Oluwasolamidotun began offering personalized home tutoring, helping students build confidence, understand difficult concepts, and prepare effectively for examinations such as JAMB, WAEC, and NECO.
                         </p>
                         <p>
-                            Word spread. Within months, the living room was overflowing.
-                            Parents saw their children’s confidence soar and their grades
-                            climb. By 2020, Brainboost Academy was officially registered,
-                            and we haven’t looked back since.
+                           As more students experienced improvement in their academic performance, the demand for dedicated tutoring support continued to grow. Parents began trusting Brainboost Academy as a reliable partner in their children’s educational journey.
+
+Over time, Brainboost Academy evolved into a platform committed to helping students achieve academic excellence through personalized home tutoring, exam-focused coaching, and effective learning strategies.
+
+Today, we remain dedicated to empowering students with the knowledge, confidence, and support they need to succeed in their examinations and future goals.
                         </p>
                         <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-xl mt-6">
                             <p className="italic text-gray-700">
                                 “We didn’t just want to create a school; we wanted to create
                                 a movement that redefines what education means in Africa.”
                             </p>
-                            <p className="text-sm text-gray-500 mt-2">— Dr. Adewale Ogunleye</p>
+                            <p className="text-sm text-gray-500 mt-2">— Mr. Omotoso Oluwasolamidotun</p>
                         </div>
                     </div>
                 </div>
@@ -378,7 +373,7 @@ const sectionRefs = useRef<(HTMLElement | null)[]>([]);
             <section className="py-12 bg-white border-t border-gray-100">
                 <div className="container mx-auto text-center text-sm text-gray-500">
                     <p>
-                        Founded in 2018 • 1200+ Partner Schools • 5000+ Students Impacted
+                        Founded in 2015 • 95% Student Satisfaction • 500+ Students Impacted
                     </p>
                 </div>
             </section>

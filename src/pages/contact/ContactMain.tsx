@@ -28,20 +28,20 @@ const ContactMain = () => {
     {
       icon: "📞",
       title: "Phone",
-      details: ["+234 806 276 5363", "+234 801 000 0000"],
+      details: ["+234 806 276 5363", "+234 703 679 5970"],
       link: "tel:+2348062765363",
     },
     {
       icon: "✉️",
       title: "Email",
-      details: ["info@brainboost.edu", "admissions@brainboost.edu"],
-      link: "oreadeyemi06@gmail.com",
+      details: ["academybrainboost@gmail.com", "admissions@brainboost.edu"],
+      link: "academybrainboost@gmail.com",
     },
     {
       icon: "📍",
       title: "Address",
       details: ["Christ Avenue Off Adebayo Road,", "Ado-Ekiti, Nigeria"],
-      link: "https://maps.google.com",
+      link: "https://maps.app.goo.gl/W5TFJgDeZrepcn1u8",
     },
     {
       icon: "🕐",
@@ -54,7 +54,7 @@ const ContactMain = () => {
   const socialLinks = [
     {
       name: "Facebook",
-      href: "https://web.facebook.com/dotun.omotoso.5",
+      href: "https://www.facebook.com/profile.php?id=100067752169854",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
@@ -90,7 +90,7 @@ const ContactMain = () => {
     },
     {
       name: "YouTube",
-      href: "https://youtube.com",
+      href: "https://www.youtube.com/education",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
@@ -149,7 +149,7 @@ const ContactMain = () => {
           {/* Quick action buttons */}
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:info@brainboost.edu"
+              href="mailto:academybrainboost@gmail.com"
               className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full transition shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:-translate-y-1 duration-300"
             >
               📧 Email Us
@@ -297,7 +297,7 @@ const ContactMain = () => {
                     💬 WhatsApp
                   </a>
                   <a
-                    href="mailto:akindotun"
+                    href="mailto:academybrainboost@gmail.com"
                     className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2.5 px-6 rounded-full text-sm transition shadow-md hover:shadow-lg hover:-translate-y-0.5"
                   >
                     ✉️ Send Email
